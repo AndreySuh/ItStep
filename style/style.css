@@ -5,22 +5,24 @@ body{
     justify-content:center;
 }
 /* меню для адаптива 600 */
+
 .adaptiv__600{
-  /* display:none; */
-    align-items: center;
-    display:flex;
-    margin-top:50px;
-    margin-left:20%;
-    justify-content: space-between;
-    width: 56%;
+   display: none;
 }
 .adaptiv__600 div img{
-    width:50px;
-    height:30px;
-    padding-left:10%;
+    width:58px;
+    height:28px;
+    
 }
 .adaptiv__600 div a{
     margin-left:10%;
+    width: 100%;
+    display: inline-block;
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Vujahday Script', cursive;
+    font-weight: 800;
 }
 /* конец меню */
 .conteiner{
@@ -374,6 +376,14 @@ body{
 }/* конец адаптива  */
 /* Адаптив до 600 */
 @media(max-width:600px){
+    .adaptiv__600{
+        align-items: center;
+        display:flex;
+        margin-top:50px;
+        margin-left:20%;
+        justify-content: space-between;
+        width: 56%;
+    }
     .content__item{
         align-items: center;
         flex-direction:column-reverse;
