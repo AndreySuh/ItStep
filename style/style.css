@@ -240,6 +240,12 @@ body{
     text-align: center;
     width:250px;
 }
+.border_right{
+    border-right:1px solid black;
+}
+.border_bottom{
+    border-bottom:1px solid black;
+}
 
 /* обратная форма */
 .Name{
@@ -456,3 +462,25 @@ body{
         display:none;
     }
 }/* конец фдфптива до 600 */
+@media(min-width:600px) and (max-width:850px){
+    .min_border_right_850{
+        border-right:0px;
+    }
+    .min_border_bottom_850{
+        border-bottom:1px solid black;
+    }
+    .min_border_right_850_1{
+        border-right:1px solid black;
+    }
+    .Features__Grid{
+        margin-top:20px;
+    }
+}   
+@media(min-width:400px) and (max-width:600px){
+    .min_border_right_600{
+        border-right:0px;
+    }
+    .min_border_bottom_600{
+        border-bottom:1px solid black;
+    }
+}
