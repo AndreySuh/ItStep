@@ -613,9 +613,10 @@ body{
                 flex-direction: column;
         width: 50%;
         margin-left: 120px;
+        height: 108%;
     }
     .WriteToUs{
-        margin-top: 160%;
+        margin-top: 10%;
     }
     .Features__Grid_1 span{
         margin-bottom: 25px
